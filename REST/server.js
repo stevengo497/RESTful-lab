@@ -10,9 +10,9 @@ const app = express();
 // });
 
 let comedians = [
-	{id: 1, name: 'Chris Rock'},
-	{id: 2, name: 'Joe Rogan'},
-  {id: 3, name: 'Mitch Hedberg'}
+	{id: 1, name: 'Chris Rock', url: 'https://www.youtube.com/watch?v=tJFS5AFcNtw'},
+	{id: 2, name: 'Joe Rogan', url: 'https://www.youtube.com/watch?v=wJv0BgBa0xs'},
+  {id: 3, name: 'Mitch Hedberg', url: 'https://www.youtube.com/watch?v=Qqaq7MIcN0A'}
 ];
 
 app.get('/comedians/:id', (request, response) => {
